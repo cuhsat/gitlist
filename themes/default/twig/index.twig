@@ -3,6 +3,10 @@
 
 {% block body %}
 <div class="container" id="repositories">
+    {% include 'header.twig' %}
+    
+    <hr />
+
     <div class="list">
         {% for repository in repositories %}
         <div class="repository">
