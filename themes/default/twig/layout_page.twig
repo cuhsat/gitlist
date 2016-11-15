@@ -2,6 +2,10 @@
 
 {% block body %}
     <div class="container">
+        {% include 'header.twig' %}
+
+        <hr />
+
         <div class="row">
             <div class="span12">
                 {% if page in ['commits', 'searchcommits'] %}
